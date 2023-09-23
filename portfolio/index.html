@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/programming-coding-icon-free-vector.jpg" type="image/x-icon" height="32px">
+    <title>Davide Lopez Web Developer Portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- FONTAWESOME -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR  -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary transparent">
+        <div class="container-md">
+            <ul class="navbar-nav ml-auto d-flex justify-content-end custom-nav">
+                <li class="nav-item last">
+                    <a class="nav-link" href="#" onclick="window.location.reload();">Home</a>
+                </li>
+                <li class="nav-item third">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item second">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item first">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- NAVBAR END -->
+
+    <div class="container" id="home">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="jumbotron transparent">
+                    <h1 class="display-4">Hi, I'm Davide Lopez</h1>
+                    <h2 class="lead">And I'm a <span id="textgold">Jr Full Stack Web Developer</span></h2>
+                    <ul class="d-flex">
+                        <li>
+                            <a href="#" id="openMailTo1"><i class="fa-regular fa-envelope"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/3282881130" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/davide-lopez/" target="_blank"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/DavideLopez" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="picture text-center">
+                    <img class="avatar img-fluid" src="img/1668383910461.jpg" alt="foto">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="about">
+        <div class="container">
+            <h2 class="about-title">About me</h2>
+            <p class="about-text" id="textToTranslate">Hi! My name is Davide! Nice to meet you. I was born in 1990 and
+                currently I live in
+                Rome. I've always been
+                passionate about Computers, starting at a young age when I began disassembling and configuring my first
+                computers. As I grew up, I continued to learn more and more, eventually becoming for friends and family:
+                "The one who solve problems!"
+
+                I've held various jobs through my life, but some time ago, I began to wonder about how everything
+                behind the internet works. Then I decided to leave my old jobs and enter the world of
+                programming and Web Development.
+
+                I attended the online Boolean Academy, an intensive 6-month course consisting of morning lessons and
+                afternoon assignments with professional Tutors assistance. During these months of study, I learned <span
+                    class="skills"> HTML,
+                    CSS, Bootstrap, Javascript, VUE.js, MySQL, PHP, and Laravel.</span>
+                At the end of the lessons, I obtained the certificate as a Full Stack Web Developer.
+
+                On my own, I continued to study Front-End Development, which has become a source of enjoyment for me. I
+                created this page entirely using HTML, CSS, Javascript and Framework CSS.
+                In my free time I realize personal Portfolios for people who need one.
+
+                If you're interested, click one of the buttons on top, and contact Me!
+            </p>
+            <p class="about-text" id="secondTextToTranslate">Or, You can take a look at my works and exercises by
+                keeping scrolling.</p>
+            <button id="translateButton" class="btn btn-warning">Translate to Italian</button>
+        </div>
+    </section>
+
+    <section id="portfolio" class="gallery min-vh-100">
+        <h1 class="gallery-title">Here you can admire some of my works!</h1>
+        <p class="sub-text-gallery">Click on it for Open</p>
+        <div class="container-lg">
+            <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+                <div class="col">
+                    <img src="img/spotify.png" class="gallery-item" alt="gallery">
+                    <button id="show-more-btn-1" class="btn btn-warning">Show Details</button>
+                    <div id="hidden-content-1" class="hidden">
+                        <p class="image-description">Spotify Web Version made with Boolean Academy, Using: HTML - CSS.
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/portfoliobenny.png" class="gallery-item" alt="gallery">
+                    <button id="show-more-btn-2" class="btn btn-warning">Show Details</button>
+                    <div id="hidden-content-2" class="hidden">
+                        <p class="image-description">Web Portfolio I made for Benedetta Benedetti Costume Designer,
+                            Using: HTML - CSS - Javascript.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/boolflix.png" class="gallery-item" alt="gallery">
+                    <button id="show-more-btn-3" class="btn btn-warning">Show Details</button>
+                    <div id="hidden-content-3" class="hidden">
+                        <p class="image-description">Netflix replica made with Boolean Academy, Using: VUE.js - HTML -
+                            CSS - Javascript and API.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/boolzap.png" class="gallery-item" alt="gallery">
+                    <button id="show-more-btn-4" class="btn btn-warning">Show Details</button>
+                    <div id="hidden-content-4" class="hidden">
+                        <p class="image-description">Whatsapp replica made with Boolean Academy, Using: VUE.js - HTML -
+                            CSS - Javascript and API.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/campominato.png" class="gallery-item" alt="gallery">
+                    <button id="show-more-btn-5" class="btn btn-warning">Show Details</button>
+                    <div id="hidden-content-5" class="hidden">
+                        <p class="image-description">Minefield Game made with Boolean Academy, Using: Javascript - HTML
+                            - CSS.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/dc-comics.png" class="gallery-item" alt="gallery">
+                    <button id="show-more-btn-6" class="btn btn-warning">Show Details</button>
+                    <div id="hidden-content-6" class="hidden">
+                        <p class="image-description">DC shop online replica Made with Boolean Academy, Using: VUE.js -
+                            HTML - CSS - Javascript and API.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/discord.png" class="gallery-item" alt="gallery">
+                    <button id="show-more-btn-7" class="btn btn-warning">Show Details</button>
+                    <div id="hidden-content-7" class="hidden">
+                        <p class="image-description">Discord website replica, one of my first homeworks made with
+                            Boolean Academy, Using: HTML - CSS</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/ps5.png" class="gallery-item" alt="gallery">
+                    <button id="show-more-btn-8" class="btn btn-warning">Show Details</button>
+                    <div id="hidden-content-8" class="hidden">
+                        <p class="image-description">Play Station 5 website replica, first Bootstrap framework exercise
+                            with Boolean Academy, Using: HTML - Bootstrap - CSS</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/boolando.png" class="gallery-item" alt="gallery">
+                    <button id="show-more-btn-9" class="btn btn-warning">Show Details</button>
+                    <div id="hidden-content-9" class="hidden">
+                        <p class="image-description">Zalando website Replica, made with Boolean Academy, Using: HTML -
+                            CSS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/spotify.png" class="modal-img" alt="modal img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="contact" class="container">
+        <h2 class="about-title" id="contactme">Contact Me!</h2>
+        <p>Or Download my CV by <a href="storage/Davide Lopez CV.pdf" id="downloadLink">Clicking Here!</a></p>
+
+        <ul class="d-flex container">
+            <li>
+                <a href="#" id="openMailTo2"><i class="fa-regular fa-envelope"></i></a>
+            </li>
+            <li>
+                <a href="https://wa.me/3282881130" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/davide-lopez/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+            </li>
+            <li>
+                <a href="https://github.com/DavideLopez" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- <section id="contact">
+        <div class="container mt-5">
+            <h1>Contact Me!</h1>
+            <form class="row g-3" action="process-form.php" method="post">
+                <div class="col-md-6">
+                    <label for="firstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="firstName" required placeholder="First Name">
+                </div>
+                <div class="col-md-6">
+                    <label for="lastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="LastName" required placeholder="Last Name">
+                </div>
+                <div class="col-md-8">
+                  <label for="emailInfo" class="form-label">E-mail</label>
+                  <input type="email" class="form-control" id="emailInfo" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="phoneNumber" class="form-label">Phone Number</label>
+                    <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                </div>
+                <div class="col-md-12">
+                  <label for="comments" class="form-label">Comments and Questions</label>
+                  <textarea class="form-control" id="comments" rows="8" required></textarea>
+                </div>
+                <div class="col-md-12">
+                    <button type="submit" class="btn btn-warning">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section> -->
+
+
+    <!-- footer  -->
+    <footer>
+        <div class="footer-text">
+            <p>&copy; 2023 - Designed by Davide Lopez</p>
+        </div>
+        <div style="position: fixed; bottom: 20px; right: 20px;">
+            <div id="scroll-to-top" style="width: 30px; height: 30px; border: 2px solid #E7A820; color: #E7A820; border-radius: 50%; text-align: center; cursor: pointer;">
+                <i class="fa-solid fa-chevron-up" style="line-height: 30px;"></i>
+            </div>
+        </div>
+        
+    </footer>
+    
+    
+
+
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
